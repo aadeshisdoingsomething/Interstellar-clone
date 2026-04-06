@@ -1,3 +1,27 @@
+# How to use (very simple for dumb dumbs)
+
+### step 1
+open your codespace and just wait for everything to load properly give it like 10 seconds one it stops moving then its ready but give it some time sometimes it looks like its done but its actually still loading
+
+### step 2
+paste or just type this into the terminal
+
+```
+pnpm i
+```
+if you get an error or something that means you did not wait long enough so just go to the text that says "bash" and click the delete button near it then click the plus button
+### step 3
+now paste this once that finishes like its not moving none of that and hopefully no errors
+```
+pnpm start
+```
+### step 4
+there will be a little box pop up that says "your server has started on port 8080" or something like that. click the button that says "open in browser" once you click that you are there
+
+### Im a dumb dumb (if you got an error or messed up)
+just like in step 2 again if there was an error again do the delete and plus thing like in step 2 </br >
+if you missed the button in step 4 and it disapeared, go to the "ports" tab and click and control click on the link or just control click on the link in the terminal. 
+
 <div align="center">
     <img src="https://raw.githubusercontent.com/UseInterstellar/Interstellar/main/.github/branding/in.png">
     <p>Serving over 15 million users since 2022.<p>
@@ -25,29 +49,6 @@
 - Fast Speeds
 - Geforce NOW Support
 
-## Deployment
-
-> [!IMPORTANT]
-> You **cannot** deploy to static web hosts, including Netlify, Cloudflare Pages, and GitHub Pages.
-
-### Password Protection
-
-1. Go to the `config.js` file and set `challenge` to **true**. Then, set the environment variable as follows:
-2. For PNPM: Run either `config=true pnpm start` or `$env:config=true; pnpm start`, depending on your server.
-3. For Bun: Run either `config=true bun start` or `$env:config=true; bun start` if you prefer Bun.
-4. For NPM: Run either `config=true npm start` or `$env:config=true; npm start` if you prefer NPM.
-
-
-### Server Deployment
-
-#### pnpm
-
-If you are using pnpm, run the following commands:
-
-```bash
-pnpm i
-pnpm start
-```
 
 ### Updating (probally not needed)
 
