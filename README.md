@@ -1,3 +1,8 @@
+# WAIT
+this currently has some issues, go back to space proxy if you experience them </br >
+https://github.com/aadeshisdoingsomething/Space-proxy-clone 
+
+
 # How to use (very simple for dumb dumbs)
 
 ### step 1
