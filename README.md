@@ -40,31 +40,6 @@
 
 ### Server Deployment
 
-You must run these commands on your server:
-
-```bash
-git clone https://github.com/UseInterstellar/Interstellar
-cd Interstellar
-```
-
-#### Ad-Free Deployment
-
-```bash
-git clone --branch Ad-Free https://github.com/UseInterstellar/Interstellar
-cd Interstellar
-```
-
-Next depending on your package manager, run one of the following commands:
-
-#### Bun
-
-If you are using Bun, run the following commands:
-
-```bash
-bun i
-bun start
-```
-
 #### pnpm
 
 If you are using pnpm, run the following commands:
@@ -74,16 +49,7 @@ pnpm i
 pnpm start
 ```
 
-#### npm
-
-If you are using npm, run the following commands:
-
-```bash
-npm i
-npm run start
-```
-
-### Updating
+### Updating (probally not needed)
 
 ```bash
 cd Interstellar
